@@ -4,7 +4,7 @@ Production-ready AI loan prediction system with multiple trained models and a li
 
 [Live Demo](https://loan-predictor-api-91xu.onrender.com/app) • [API Docs](https://loan-predictor-api-91xu.onrender.com/docs) • [PitchHut Project](https://www.pitchhut.com/project/loan-predictor-api)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -65,7 +65,7 @@ docker build -t loan-predictor-api .
 docker run -p 5000:5000 loan-predictor-api
 ```
 
-## 📖 API Documentation
+## API Documentation
 
 Base URL
 - Development: http://localhost:5000
@@ -129,7 +129,7 @@ Response example
 
 [Full API documentation available at /docs]
 
-## 🏗️ Architecture
+## Architecture
 
 System Components
 
@@ -159,7 +159,7 @@ Technology Stack
 - Testing: pytest, coverage
 - Docs: Flasgger/Swagger
 
-## 🧪 Testing
+## Testing
 
 Test Coverage: ~83%
 
@@ -182,7 +182,7 @@ tests/
 └── conftest.py
 ```
 
-## 🔒 Security
+## Security
 
 Implemented measures
 
@@ -201,7 +201,7 @@ Best practices
 - Validate all inputs and use type hints.
 - Apply rate limits and monitoring in production.
 
-## ⚡ Performance
+## Performance
 
 Optimizations
 
@@ -217,7 +217,7 @@ Metrics (example)
 - Throughput: 35+ req/s
 - Cache hit rate: 85%
 
-## 🚢 Deployment
+## Deployment
 
 Render (example)
 
@@ -246,7 +246,7 @@ Deployment checklist
 - Health check endpoint working
 - Logs monitored
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 Common issues
 
@@ -255,23 +255,21 @@ Common issues
 - Import errors: reinstall dependencies `pip install -r requirements.txt --force-reinstall`
 - Tests failing: run `pytest -v --tb=short`
 
-## 📝 Contributing
+## Contributing
 
 See `CONTRIBUTING.md` for contribution guidelines.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Dataset: Loan Prediction Dataset
 
-Built with ❤️ by [Your Name]
+Built with care by [Your Name]
 
-
-
-##  Blog Post
+## Blog Post
 
 **[Read the full technical deep-dive →](https://medium.com/@olatunjitobiloba05/building-a-production-ready-ai-loan-prediction-system-a-15-day-journey-3a43cb87170f)**
 
@@ -284,48 +282,48 @@ I wrote a comprehensive 3,000-word article covering:
 
 Published on Medium | Dev.to
 
-
 [![Demo Video](https://img.shields.io/badge/▶️-Watch%20Demo-red?style=for-the-badge&logo=youtube)](YOUR_YOUTUBE_LINK)
 [![Live Demo](https://img.shields.io/badge/🌐-Live%20Demo-blue?style=for-the-badge)](https://loan-predictor-api-91xu.onrender.com/app)
 [![API Docs](https://img.shields.io/badge/📚-API%20Docs-green?style=for-the-badge)](https://loan-predictor-api-91xu.onrender.com/docs)
 
 > Production-ready AI loan prediction system with 88.62% accuracy, 4 ML models, and comprehensive API
 
-## 🎥 Demo Video
+## Demo Video
 
 [![Watch Demo](portfolio/screenshots/01-homepage-hero.png)](YOUR_YOUTUBE_LINK)
 
-**[▶️ Watch 3-minute demo video](YOUR_YOUTUBE_LINK)**
+**[Watch 3-minute demo video](YOUR_YOUTUBE_LINK)**
+
 ![Response Time](https://img.shields.io/badge/response%20time-150ms-green) ![Throughput](https://img.shields.io/badge/throughput-35%20req%2Fs-blue) ![Cache Hit](https://img.shields.io/badge/cache%20hit-85%25-success)
 
 Machine Learning API for predicting loan approval using Random Forest (88.62% accuracy).
 
-## 🚀 Live Demo
+## Live Demo
 
-**Production URL:** Deploy to Render by following the [Deployment](#-deployment-render) section below.
+**Production URL:** Deploy to Render by following the [Deployment](#deployment-render) section below.
 
 **Local Development:** `http://localhost:5000`
 
-## 📊 Features
+## Features
 
-- ✅ 88.62% accurate ML predictions
-- ✅ Comprehensive input validation
-- ✅ Database storage (SQLite dev, PostgreSQL prod)
-- ✅ Prediction history & analytics
-- ✅ 83% test coverage
-- ✅ RESTful API design
-- ✅ Production-ready deployment
-- ✅ Feature engineering (20+ engineered features)
-- ✅ Web interface with Bootstrap 5
-- ✅ Complete data preprocessing pipeline
+- 88.62% accurate ML predictions
+- Comprehensive input validation
+- Database storage (SQLite dev, PostgreSQL prod)
+- Prediction history & analytics
+- 83% test coverage
+- RESTful API design
+- Production-ready deployment
+- Feature engineering (20+ engineered features)
+- Web interface with Bootstrap 5
+- Complete data preprocessing pipeline
 
-## 🎨 Frontend Interface
+## Frontend Interface
 
 **Live Demo:** https://loan-predictor-api-91xu.onrender.com/app
 
 Beautiful, responsive web interface for making predictions.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** Flask 3.1.2, Python 3.11
 - **ML:** scikit-learn, pandas, numpy
@@ -335,7 +333,7 @@ Beautiful, responsive web interface for making predictions.
 - **Server:** Gunicorn
 - **ORM:** SQLAlchemy
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 loan-predictor-api/
@@ -416,7 +414,7 @@ loan-predictor-api/
   └── test_validators.py
 ```
 
-## 🚀 Quick Start (Local Development)
+## Quick Start (Local Development)
 
 ### Prerequisites
 - Python 3.11+
@@ -447,7 +445,7 @@ python app_v4.py
 # Open browser to http://localhost:5000
 ```
 
-## � API Documentation
+## API Documentation
 
 **Interactive Documentation:** https://loan-predictor-api-91xu.onrender.com/docs
 
@@ -457,7 +455,7 @@ Explore the API with Swagger UI:
 - See example requests
 - Test with your own data
 
-## �📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -591,7 +589,7 @@ Detailed analytics and trends.
 }
 ```
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric | Score |
 |--------|-------|
@@ -600,7 +598,7 @@ Detailed analytics and trends.
 | **Recall** | 95.29% |
 | **F1-Score** | 92.05% |
 
-## ⚡ Performance
+## Performance
 
 **Optimizations:**
 - Response caching (3-4x faster)
@@ -624,7 +622,7 @@ See [PERFORMANCE.md](PERFORMANCE.md) for detailed metrics.
 - **Min Samples Leaf**: 2
 - **Features**: 20 engineered features
 
-## ✅ Input Validation
+## Input Validation
 
 The API includes comprehensive validation:
 
@@ -642,7 +640,7 @@ The API includes comprehensive validation:
 - **Self_Employed**: "Yes" or "No"
 - **Property_Area**: "Urban", "Semiurban", or "Rural"
 
-## 🔧 Feature Engineering
+## Feature Engineering
 
 The model uses 20 engineered features:
 
@@ -672,7 +670,7 @@ The model uses 20 engineered features:
 19. **Property_Area_Encoded** - Property area (0/1/2)
 20. **Credit_History** - Credit availability (0/1)
 
-## 🧪 Testing
+## Testing
 
 Run test suite:
 
@@ -699,7 +697,7 @@ pytest tests/test_validators.py -v
 pytest tests/test_api.py::test_predict_endpoint -v
 ```
 
-## 🚀 Deployment (Render)
+## Deployment (Render)
 
 ### Prerequisites
 - GitHub account (with code pushed)
@@ -782,7 +780,7 @@ curl -X POST https://your-service-name.onrender.com/predict \
   }'
 ```
 
-## 🔐 Environment Variables
+## Environment Variables
 
 ### Required for Production
 
@@ -798,7 +796,7 @@ SECRET_KEY=dev-secret-key-change-in-production
 DATABASE_URL=sqlite:///predictions.db
 ```
 
-## 💻 Usage Examples
+## Usage Examples
 
 ### Using cURL
 
@@ -846,7 +844,7 @@ response = requests.post(url, json=data)
 print(json.dumps(response.json(), indent=2))
 ```
 
-## 📈 Development
+## Development
 
 ### Running Different API Versions
 
@@ -873,13 +871,13 @@ python app_v4.py
 python train_model_v3.py
 ```
 
-## 📓 Jupyter Notebooks
+## Jupyter Notebooks
 
 - `notebooks/01_data_exploration.ipynb` - EDA
 - `notebooks/02_model_training.ipynb` - Model development
 - `notebooks/03_feature_engineering.ipynb` - Feature creation
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Port Already in Use**
 ```bash
@@ -896,11 +894,11 @@ pip install -r requirements.txt
 python train_model_v3.py
 ```
 
-## 📝 License
+## License
 
 MIT License - Feel free to use this project for educational and commercial purposes.
 
-## 👤 Author
+## Author
 
 Created as a comprehensive machine learning project demonstrating:
 - End-to-end ML pipeline
@@ -909,7 +907,7 @@ Created as a comprehensive machine learning project demonstrating:
 - Production deployment
 - Test-driven development
 
-## 🔗 Resources
+## Resources
 
 - [scikit-learn](https://scikit-learn.org/)
 - [Flask](https://flask.palletsprojects.com/)
@@ -921,4 +919,4 @@ Created as a comprehensive machine learning project demonstrating:
 **Last Updated**: December 2025
 **Model Version**: 3
 **API Version**: 4.0
-**Status**: Production Ready ✅
+**Status**: Production Ready
