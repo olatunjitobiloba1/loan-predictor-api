@@ -1,6 +1,6 @@
 import pytest
 
-from app import app, limiter
+from app import app
 
 
 @pytest.fixture
@@ -41,10 +41,9 @@ def test_benchmark_endpoint_runs(client):
 
 def test_health_endpoint_is_exempt_from_default_rate_limits(client):
     """Render's recurring health probes must never receive a 429 response."""
-    limiter.reset()
 
     # The application-wide hourly limit is 200 requests. Without the exemption,
     # the final request is rejected with HTTP 429.
     for _ in range(201):
-        response = client.get("/health")
+        response = client.get("/health", environ_base={"REMOTE_ADDR": "203.0.113.10"})
         assert response.status_code == 200
