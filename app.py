@@ -1074,6 +1074,7 @@ def frontend():
 
 
 @app.route("/health")
+@limiter.exempt
 @swag_from(os.path.join(os.path.dirname(__file__), "docs", "swagger", "health.yml"))
 def health():
     """Health check endpoint"""
